@@ -1,0 +1,17 @@
+Implicit Solvent Jarzynski simulation
+&cntrl
+        imin=0,irest=1,ntx=7
+        jar=1, ntb=0, ntp=0,
+        nstlim=1000000, dt=0.002,
+        ntc=2, ntf=2, ntt=3,
+        temp0=300.0, tempi=300.0,
+        gamma_ln=1.0, ig=-1,
+        ntwx=1000, ntpr=1000,
+        cut=100, ioutfm=1,
+/
+  &wt type='DUMPFREQ', istep1=1000,/
+  &wt type='END', /
+DISANG=dist.RST
+DUMPAVE=jar.log.1
+LISTIN=POUT
+LISTOUT=POUT

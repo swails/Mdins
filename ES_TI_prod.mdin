@@ -1,0 +1,10 @@
+Softcore TI production run (NPT)
+&cntrl
+  imin=0, ntx=5, irest=1, ntpr=1000,
+  ntwr=1000, ntwx=1000, ntf=2, ntc=2,
+  ntb=2, cut=8, nstlim=100000,
+  dt=0.002, temp0=300.0, ntt=3, ntp=1,
+  gamma_ln=2, pres0=1.0, taup=2.0,
+  icfe=1, clambda=0.1, ifsc=0, crgmask='',
+  ioutfm=1,
+/
