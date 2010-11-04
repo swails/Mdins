@@ -1,5 +1,5 @@
 Softcore TI production run (NPT)
-&cntrl
+ &cntrl
   imin=0, ntx=5, irest=1, ntpr=1000,
   ntwr=1000, ntwx=1000, ntf=2, ntc=2,
   ntb=2, cut=8, nstlim=100000,
@@ -7,4 +7,4 @@ Softcore TI production run (NPT)
   gamma_ln=2, pres0=1.0, taup=2.0,
   icfe=1, clambda=0.1, ifsc=0, crgmask='',
   ioutfm=1,
-/
+ /

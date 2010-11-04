@@ -1,5 +1,5 @@
 Minimization to relax initial bad contacts, implicit solvent constant pH
-&cntrl
+ &cntrl
    imin=1,
    ncyc=1000,
    maxcyc=2000,
@@ -10,4 +10,4 @@ Minimization to relax initial bad contacts, implicit solvent constant pH
    solvph=7.5,
    ntcnstph=10000,
    igb=2,
-/
+ /
