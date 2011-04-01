@@ -1,9 +1,10 @@
 Minimization to relax initial bad contacts, implicit solvent
  &cntrl
    imin=1,
-   ncyc=1000,
-   maxcyc=2000,
+   ncyc=100,
+   maxcyc=500,
    ntpr=50,
    ntb=0,
    cut=1000,
+   igb=5,
  /
