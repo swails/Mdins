@@ -7,5 +7,5 @@ Explicit solvent constant pH MD
    ntp=1, ntc=2, ntf=2, cut=8,
    ntb=2, iwrap=1, ioutfm=1,
    icnstph=2, ntcnstph=50, solvph=7.0,
-   ntrelax=1500,
+   ntrelax=1500, saltcon=0.1,
  /
