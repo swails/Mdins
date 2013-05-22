@@ -1,18 +1,16 @@
 Implicit solvent initial heating mdin
  &cntrl
    imin=0, irest=0, ntx=1,
-   ntpr=500, ntwx=500, nstlim=1000000,
+   ntpr=1000, ntwx=1000, nstlim=1000000,
    dt=0.002, ntt=3, tempi=0,
    temp0=300, gamma_ln=1.0, ig=-1,
-   ntp=0, ntc=2, ntf=2, cut=100,
+   ntp=0, ntc=2, ntf=2, cut=1000,
    ntb=0, igb=5, ioutfm=1, nmropt=1,
+   restraintmask='!:WAT&@CA,C,O,N',
+   restraint_wt=2.0, ntr=1,
  /
  &wt
-   TYPE='TEMP0', ISTEP1=1, ISTEP2=100000,
-   VALUE1=10.0, VALUE2=100.0,
- /
- &wt
-   TYPE='TEMP0', ISTEP1=100001, ISTEP2=500000,
-   VALUE1=100.0, VALUE2=300.0
+   TYPE='TEMP0', ISTEP1=1, ISTEP2=500000,
+   VALUE1=10.0, VALUE2=300.0,
  /
  &wt TYPE='END' /

@@ -7,4 +7,7 @@ Minimization to relax initial bad contacts, implicit solvent
    ntb=0,
    cut=1000,
    igb=5,
+   ntr=1,
+   restraintmask='!:WAT&@CA,C,O,N',
+   restraint_wt=10.0,
  /

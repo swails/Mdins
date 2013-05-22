@@ -4,7 +4,7 @@ Implicit solvent molecular dynamics
    ntpr=1000, ntwx=1000, nstlim=500000,
    dt=0.002, ntt=3, tempi=300,
    temp0=300, gamma_ln=1.0, ig=-1,
-   ntp=0, ntc=2, ntf=2, cut=100,
+   ntp=0, ntc=2, ntf=2, cut=1000,
    ntb=0, igb=5, ioutfm=1,
  /
 
