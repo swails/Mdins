@@ -4,10 +4,12 @@ Minimization to relax initial bad contacts, implicit solvent constant pH
    ncyc=1000,
    maxcyc=2000,
    ntpr=50,
-   ntb=0,
    cut=1000,
    icnstph=1,
    solvph=7.5,
    ntcnstph=10000,
    igb=2,
+   ntr=1,
+   restraint_wt=10.0,
+   restraintmask='@CA,C,O,N', ! appropriate for protein backbone
  /
